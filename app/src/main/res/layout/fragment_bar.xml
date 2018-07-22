@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarFragment">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_height="550dp"
+        android:layout_width="match_parent"/>
+
+    <Spinner
+        android:id="@+id/usageSpinner"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="330dp"
+        android:background="@drawable/shape_white_frame"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="50"
+        android:padding="2dp"
+        android:singleLine="false" />
+</FrameLayout>
