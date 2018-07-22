@@ -1,6 +1,8 @@
 # java_based_SmartER
 ### First of all, thanks to the api provider: openweather and PhilJay/MPAndroidChart.
 ### This is the assignment of Monash Uni FIT5046 Mobile and Distributed Computing Systems.
+[***Click here to see the demo***](https://youtu.be/Pq3bVct_15c)
+
 #### 1. Login Screen
 The button will be unclickable when user did not put and thing in the field.
 Users can see the password when click the eye button.
